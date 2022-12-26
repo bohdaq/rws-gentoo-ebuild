@@ -2,7 +2,11 @@
 
 ### To install rws as Gentoo ebuild:
 
-Add 'rws' to the [/etc/portage/categories](https://wiki.gentoo.org/wiki//etc/portage/categories)
+- Download rust-web-server-VERSION.ebuild
+
+- You may need to run commands below as an administrator
+
+- Add 'rws' to the [/etc/portage/categories](https://wiki.gentoo.org/wiki//etc/portage/categories)
 
 > ebuild rust-web-server-VERSION.ebuild manifest clean unpack
 >
