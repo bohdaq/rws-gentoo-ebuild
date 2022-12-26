@@ -12,7 +12,7 @@
 > 
 > cd rws/rust-web-server
 
-- You may need to run commands below as an administrator
+- You may need to run commands listed below as an administrator
 
 - Add 'rws' to the [/etc/portage/categories](https://wiki.gentoo.org/wiki//etc/portage/categories)
 
