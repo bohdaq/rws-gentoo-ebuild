@@ -2,7 +2,15 @@
 
 ### To install rws as Gentoo ebuild:
 
-- Download rust-web-server-VERSION.ebuild
+- Clone repository
+
+> cd rws-gentoo-ebuild
+> 
+> mkdir -p rws/rust-web-server
+> 
+> cp rust-web-server-VERSION.ebuild rws/rust-web-server
+> 
+> cd rws/rust-web-server
 
 - You may need to run commands below as an administrator
 
