@@ -10,11 +10,9 @@
 
 > cd rws-gentoo-ebuild
 > 
-> cd rws/rust-web-server
+> cd www-servers/rust-web-server
 
 - You may need to run commands listed below as an administrator
-
-- Add 'rws' to the [/etc/portage/categories](https://wiki.gentoo.org/wiki//etc/portage/categories)
 
 > ebuild rust-web-server-VERSION.ebuild manifest clean unpack
 >
@@ -23,6 +21,7 @@
 ### Test installation:
 > rws
 
+Press Ctrl + C (or CMD + C) to stop server.
 
 ### To remove rws:
 > emerge --ask --depclean rust-web-server
