@@ -6,6 +6,7 @@
 EAPI=8
 
 CRATES="
+	file-ext-0.9.2
 "
 
 inherit cargo
@@ -17,13 +18,8 @@ HOMEPAGE="https://github.com/bohdaq/rust-web-server"
 SRC_URI="https://github.com/bohdaq/rust-web-server/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz
     $(cargo_crate_uris
 )"
-RESTRICT="mirror"
 # License set may be more restrictive as OR is not respected
 # use cargo-license for a more accurate license picture
 LICENSE="Apache-2.0 CC-BY-4.0 ISC LGPL-3.0-or-later MIT"
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE=""
-
-DEPEND=""
-RDEPEND=""
