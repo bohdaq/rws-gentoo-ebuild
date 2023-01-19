@@ -6,7 +6,7 @@
 EAPI=8
 
 CRATES="
-	file-ext-0.9.2
+	file-ext-0.9.3
 "
 
 inherit cargo
