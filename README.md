@@ -2,20 +2,39 @@
 
 ### To install rws as Gentoo ebuild:
 
-- Make sure you have Rust installed
+#### Install Rust
 
-> emerge --ask dev-lang/rust-bin
+> cd ~
 
-- Clone repository
+> mkdir git
+
+> cd git
+
+> mkdir -p dev-lang/rust-bin
+
+> cd dev-lang/rust-bin
+
+> wget https://gitweb.gentoo.org/repo/gentoo.git/plain/dev-lang/rust-bin/rust-bin-1.66.1.ebuild
+
+> sudo ebuild rust-bin-1.66.1.ebuild manifest clean unpack
+
+> sudo ebuild rust-bin-1.66.1.ebuild clean install merge
+
+> rustc -V
+
+
+#### Install rust-web-server
+
+> git clone git@github.com:bohdaq/rws-gentoo-ebuild.git
 
 > cd rws-gentoo-ebuild
-> 
+ 
 > cd www-servers/rust-web-server
 
 - You may need to run commands listed below as an administrator
 
 > ebuild rust-web-server-VERSION.ebuild manifest clean unpack
->
+
 > ebuild rust-web-server-VERSION.ebuild clean install merge
 
 ### Test installation:
